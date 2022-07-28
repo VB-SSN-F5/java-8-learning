@@ -12,6 +12,12 @@ public class EmployeeDetails {
 	
 	private int experience;
 	
+	private boolean newJoiner;
+	
+	private boolean trainingPending;
+	
+	private String emailID;
+	
 	
 
 	public EmployeeDetails() {
@@ -87,6 +93,36 @@ public class EmployeeDetails {
 
 	public void setExperience(int experience) {
 		this.experience = experience;
+	}
+
+	public boolean isNewJoiner() {
+		return newJoiner;
+	}
+
+	public void setNewJoiner(boolean newJoiner) {
+		this.newJoiner = newJoiner;
+	}
+
+	public boolean isTrainingPending() {
+		return trainingPending;
+	}
+
+	public void setTrainingPending(boolean trainingPending) {
+		this.trainingPending = trainingPending;
+	}
+
+	public String getEmailID() {
+		return emailID;
+	}
+
+	public void setEmailID(String emailID) {
+		this.emailID = emailID;
+	}
+
+	@Override
+	public String toString() {
+		return "EmployeeDetails [id=" + id + ", name=" + name + ", location=" + location + ", experience=" + experience
+				+ ", newJoiner=" + newJoiner + ", trainingPending=" + trainingPending + ", emailID=" + emailID + "]";
 	}
 	
 	

@@ -1,0 +1,31 @@
+[
+	{
+		"id":1,
+		"name":"Vijaya Balaji",
+		"location": "Chennai",
+		"experience":7,
+		"newJoiner": "true",
+		"trainingPending": "true",
+		"emailID": "vijay@gmail.com"
+	},
+	
+	{
+		"id":2,
+		"name":"Rajni",
+		"location": "Poes Garden",
+		"experience":45,
+		"newJoiner": "true",
+		"trainingPending": "true",
+		"emailID": "rajnikanth@gmail.com"
+	},
+	
+	{
+		"id":3,
+		"name":"Kamal",
+		"location": "Aalwarpet",
+		"experience":65,
+		"newJoiner": "true",
+		"trainingPending": "false",
+		"emailID": "ulaganayagan@gmail.com"
+	}
+]
